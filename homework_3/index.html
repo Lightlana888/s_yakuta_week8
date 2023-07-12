@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caladea&family=Josefin+Sans:wght@600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        .header img {
+            width: 100%;
+        }
+
+        .header {
+            margin-bottom: 5rem;
+
+        }
+
+        .header__title {
+
+            padding-top: 5rem;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .header__logo {
+
+            margin-left: 5rem;
+        }
+
+        .header__title__button-cart {
+
+            margin-right: 5rem;
+
+        }
+
+
+
+        .container {
+            display: grid;
+            grid-template-columns: 50% 50%;
+        }
+
+        .container__block {
+            display: grid;
+            grid-template-rows: 2fr 1fr 1fr;
+            grid-template-columns: 20% 70% 10%;
+            font-family: 'Caladea', serif;
+
+        }
+
+        .container__block__h1 {
+            font-size: 4em;
+            grid-column: 2/3;
+            grid-row: 1/3;
+            display: flex;
+            align-items: center;
+
+
+        }
+
+        .container__block__p {
+            grid-column: 2/3;
+            font-size: 2em;
+
+        }
+
+        .container__block__button {
+            grid-column: 2/3;
+            width: 40%;
+            height: 40%;
+
+
+
+        }
+
+        .container__img {
+            background-image: url(assets/images/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container__img img {
+            margin-top: 10em;
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            height: 20vh;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: blueviolet;
+            font-family: 'Caladea', serif;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header"><img src="assets/images/browser.png" alt="">
+        <div class="header__title">
+            <div class="header__logo"><img src="assets/images/logo.png" alt=""></div><a href="index_5.html"
+                class="header__title__button-cart"><img src="assets/images/button-cart.png" alt=""></a>
+        </div>
+    </header>
+    <main class="main">
+
+        <div class="container">
+            <div class="container__block">
+
+                <h1 class="container__block__h1">ВИРТУАЛЬНАЯ РЕАЛЬНОСТЬ БЕЗ ПРОВОДОВ</h1>
+                <p class="container__block__p">Лучшее, что случалось с виртуальным миром в реальности. Новый
+                    компактный шлем без проводов и дорогих компьютеров.</p>
+                <a href="index_5.html" class="container__block__button"><img src="assets/images/button-buy.png"
+                        alt=""></a>
+            </div>
+            <div class="container__img"><img src="assets/images/guy.png" alt="">
+
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="index_1.html">Возможности</a><a href="index_2.html">Где купить</a><a href="index_3.html">Доставка</a><a
+            href="index_4.html">Помощь</a>
+    </footer>
+</body>
+
+</html>
